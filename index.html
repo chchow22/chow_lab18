@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app = "sentimentModule">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+  </head>
+  <body>
+    <div class = "nav">
+      <a href = "#!/home"> Home </a>
+      <a href = "#!/input"> Weather </a>
+    </div>
+
+    <ng-view> </ng-view>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"> </script>
+    <script src = "https://code.angularjs.org/1.6.4/angular-route.js"> </script>
+    <script src = "module.js"> </script>
+    <script src = "config.js"> </script>
+    <script src = "inputController.js"> </script>
+    <script src = "outputController.js"> </script>
+    <script src = "homeController.js"> </script>
+    <script src = "sentimentFactory.js"> </script>
+  </body>
+</html>
